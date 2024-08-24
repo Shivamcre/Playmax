@@ -1,0 +1,39 @@
+/* Subscription page styles */
+.subscription-options {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.subscription-plan {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+.subscription-plan h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.subscription-plan p {
+    margin: 10px 0;
+}
+
+.subscription-plan .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.subscription-plan .btn:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,47 @@
+/* Existing styles */
+
+.container {
+    padding: 20px;
+}
+
+.movie-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.movie-poster {
+    width: 100%;
+    max-width: 300px;
+}
+
+.episode-list {
+    list-style: none;
+    padding: 0;
+}
+
+.episode-list li {
+    margin-bottom: 10px;
+}
+
+.episode-list a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.episode-list a:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}

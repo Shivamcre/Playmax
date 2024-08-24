@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTT Platform</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">Shivam</div>
+        <nav class="nav">
+            <ul>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="movies.html">Movies</a></li>
+                <li><a href="#tvshows">TV Shows</a></li>
+                <li><a href="subscription.html">Premium</a></li>
+                <li><a href="#profile">Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Welcome to PlayMax</h1>
+                <p>Watch your favorite movies and shows anytime, anywhere.</p>
+                <button class="btn" onclick="scrollToSection('movies')">Start Watching</button>
+            </div>
+        </section>
+
+        <section id="movies" class="content">
+            <h2>Trending Now</h2>
+            <div class="content-grid">
+                <!-- Content items will be dynamically loaded here -->
+            </div>
+        </section>
+
+        <section id="tvshows" class="content">
+            <h2>Popular TV Shows</h2>
+            <div class="content-grid">
+                <!-- More content will be dynamically loaded here -->
+            </div>
+        </section>
+
+        <section id="mylist" class="content">
+            <h2>My List</h2>
+            <div class="content-grid">
+                <!-- User's saved content will be dynamically loaded here -->
+            </div>
+        </section>
+
+        <section id="profile" class="content">
+            <h2>Profile</h2>
+            <div class="profile-details">
+                <!-- User profile details will be shown here -->
+                <button class="btn logout-btn" onclick="logout()">Logout</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 OTTflix. All rights reserved.</p>
+    </footer>
+  <!-- Movie Modal -->
+<div id="movieModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <video id="moviePlayer" controls width="100%" height="450">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</div>
+
+
+    </div>
+</div>
+
+</body>
+</html>
